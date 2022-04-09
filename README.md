@@ -86,8 +86,8 @@ I would like to be able to select some number of several available dishes`
 ```mermaid
 graph TD
     A[Customer] -->B[Dishes]
-    B[Dishes] --> C[#choose_dish(num)]
-    C[#choose_dish(num)] --> D[Order]
+    B[Dishes] --> C["choose_dish(num)"]
+    C["#choose_dish(num)"] --> D[Order]
     D[Order] --> E[#add_to_basket]
 ```
 
